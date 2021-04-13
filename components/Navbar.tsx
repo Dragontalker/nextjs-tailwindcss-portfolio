@@ -1,9 +1,16 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Navbar = () => {
 
     const [activeItem, setActiveItem] = useState<string>('')
+
+    const { pathname } = useRouter()
+    
+    useEffect(() => {
+        if (pathname === '/') setActiveItem('About')
+    }, [])
 
     return (
         <div>
