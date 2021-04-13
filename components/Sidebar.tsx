@@ -46,7 +46,11 @@ const Sidebar = () => {
                 <p className='my-2'>richard.yang.tong@gmail.com</p>
                 <p className='my-2'>+1(647)533-7683</p>
             </div>
-            <button className='bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2'>Email Me</button>
+            <button 
+                className='bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2'
+                onClick={() => window.open('mailto:richard.yang.tong@gmail.com')}>
+                Email Me
+            </button>
             <button className='bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2'>Toggle Theme</button>
         </div>
     )
