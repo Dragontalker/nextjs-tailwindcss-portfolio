@@ -10,7 +10,9 @@ const Sidebar = () => {
                 alt='user avatar'
                 className='w-32 h-32 mx-auto rounded-full'
             />
-            <h3><span>Richard</span>Yang</h3>
+            <h3 className='my-4 tex-3x1 font-medium tracking-wider'>
+                <span>Richard</span>Yang
+            </h3>
             <p>Web Developer</p>
             <p><GiTie className='w-6 h-6'/>Download Resume</p>
             {/* social icon */}
