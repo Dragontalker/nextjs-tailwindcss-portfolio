@@ -1,4 +1,5 @@
 import { AiFillGithub, AiLinkedin, AiFillYoutube } from 'react-icons'
+import { GoLocation } from 'react-icons/go'
 
 
 const Sidebar = () => {
