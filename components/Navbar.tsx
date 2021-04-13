@@ -18,10 +18,10 @@ const Navbar = () => {
                 )}
             </div>
             <div>
-                {activeItem !== 'Projects' && (
+                {activeItem !== 'Resume' && (
                     <Link href="/">
                         <a>
-                            <span>Projects</span>
+                            <span>Resume</span>
                         </a>
                     </Link>
                 )}
