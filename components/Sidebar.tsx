@@ -17,6 +17,7 @@ const Sidebar = () => {
             {/* address */}
             <div>
                 <div>
+                    <GoLocation />
                     <span>Toronto, Canada</span>
                 </div>
                 <p>richard.yang.tong@gmail.com</p>
