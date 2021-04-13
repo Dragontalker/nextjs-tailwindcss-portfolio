@@ -23,15 +23,15 @@ const Sidebar = () => {
                 <GiTie className='w-6 h-6'/>Download Resume
             </a>
             {/* social icon */}
-            <div className='flex justify-around my-5 text-green-500 md:w-full'>
+            <div className='flex justify-around my-5 text-green-500 md:w-full w-9/12 mx-auto'>
                 <a>
-                    <AiFillYoutube className='w-8 h-8'/>
+                    <AiFillYoutube className='w-8 h-8 cursor-pointer'/>
                 </a>
                 <a>
-                    <AiFillGithub className='w-8 h-8'/>
+                    <AiFillGithub className='w-8 h-8 cursor-pointer'/>
                 </a>
                 <a>
-                    <AiFillLinkedin className='w-8 h-8'/>
+                    <AiFillLinkedin className='w-8 h-8 cursor-pointer'/>
                 </a>
             </div>
 
