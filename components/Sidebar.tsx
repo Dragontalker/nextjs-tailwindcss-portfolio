@@ -1,6 +1,6 @@
 import { AiFillGithub, AiLinkedin, AiFillYoutube } from 'react-icons'
 import { GoLocation } from 'react-icons/go'
-import { GoTie } from 'react-icon/gi'
+import { GiTie } from 'react-icon/gi'
 
 const Sidebar = () => {
     return (
