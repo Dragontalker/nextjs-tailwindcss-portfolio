@@ -19,7 +19,7 @@ const Sidebar = () => {
                 <p>+1(647)533-7683</p>
             </div>
             <button>Email Me</button>
-            
+            <button>Toggle Theme</button>
         </div>
     )
 }
