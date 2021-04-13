@@ -8,6 +8,17 @@ const Sidebar = () => {
             <h3><span>Richard</span>Yang</h3>
             <p>Web Developer</p>
             <p>Download Resume</p>
+            {/* social icon */}
+
+            {/* address */}
+            <div>
+                <div>
+                    <span>Toronto, Canada</span>
+                </div>
+                <p>richard.yang.tong@gmail.com</p>
+                <p>+1(647)533-7683</p>
+            </div>
+            
         </div>
     )
 }
