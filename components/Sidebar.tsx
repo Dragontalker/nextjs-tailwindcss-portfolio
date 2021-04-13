@@ -13,8 +13,15 @@ const Sidebar = () => {
             <h3 className='my-4 tex-3x1 font-medium tracking-wider'>
                 <span>Richard</span>Yang
             </h3>
-            <p className='px-2 py-1 my-3 bg-grey-200 rounded-full'>Web Developer</p>
-            <p><GiTie className='w-6 h-6'/>Download Resume</p>
+            <p className='px-2 py-1 my-3 bg-grey-200 rounded-full'>
+                Web Developer
+            </p>
+            <a 
+                className='px-2 py-1 my-3 bg-grey-200 rounded-full'
+                href=''
+                download='name'>
+                <GiTie className='w-6 h-6'/>Download Resume
+            </a>
             {/* social icon */}
             <div>
                 <a>
