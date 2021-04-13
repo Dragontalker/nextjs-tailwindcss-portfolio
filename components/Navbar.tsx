@@ -7,30 +7,26 @@ const Navbar = () => {
 
     return (
         <div>
-            <span>{activeItem}</span>
-            <div>
+            <span className='font-bold text-green'>{activeItem}</span>
+            <div className='flex space-x-3 text-red-400 font-lg'>
                 {activeItem !== 'About' && (
                     <Link href="/">
                         <a>
-                            <span>About</span>
+                            <span onClick={() => setActiveItem('About')}>About</span>
                         </a>
                     </Link>
                 )}
-            </div>
-            <div>
                 {activeItem !== 'Projects' && (
                     <Link href="/projects">
                         <a>
-                            <span>Projects</span>
+                            <span onClick={() => setActiveItem('Projects')}>Projects</span>
                         </a>
                     </Link>
                 )}
-            </div>
-            <div>
                 {activeItem !== 'Resume' && (
                     <Link href="/resume">
                         <a>
-                            <span>Resume</span>
+                            <span onClick={() => setActiveItem('Resume')}>Resume</span>
                         </a>
                     </Link>
                 )}
