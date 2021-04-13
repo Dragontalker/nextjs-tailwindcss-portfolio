@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
 
@@ -7,6 +8,15 @@ const Navbar = () => {
     return (
         <div>
             <span>{activeItem}</span>
+            <div>
+                {activeItem !== 'About' && (
+                    <Link href="/">
+                        <a>
+                            <span>About</span>
+                        </a>
+                    </Link>
+                )}
+            </div>
         </div>
     )
 }
