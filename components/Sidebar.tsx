@@ -11,7 +11,7 @@ const Sidebar = () => {
             />
             <h3><span>Richard</span>Yang</h3>
             <p>Web Developer</p>
-            <p>Download Resume</p>
+            <p><GiTie className='w-6 h-6'/>Download Resume</p>
             {/* social icon */}
 
             {/* address */}
