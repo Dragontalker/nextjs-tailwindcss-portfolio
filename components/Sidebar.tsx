@@ -39,12 +39,12 @@ const Sidebar = () => {
             <div 
                 className='py-4 my-5 bg-green-200'
                 style={{ marginLeft: '-1rem', marginRight: '-1rem'}}>
-                <div className='flex items-center justify-center'>
+                <div className='flex items-center justify-center space-x-2'>
                     <GoLocation />
                     <span>Toronto, Canada</span>
                 </div>
-                <p>richard.yang.tong@gmail.com</p>
-                <p>+1(647)533-7683</p>
+                <p className='my-2'>richard.yang.tong@gmail.com</p>
+                <p className='my-2'>+1(647)533-7683</p>
             </div>
             <button>Email Me</button>
             <button>Toggle Theme</button>
