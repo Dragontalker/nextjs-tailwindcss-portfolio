@@ -1,4 +1,4 @@
-import { AiFillGithub, AiLinkedin, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 
