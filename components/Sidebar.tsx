@@ -23,7 +23,7 @@ const Sidebar = () => {
                 <GiTie className='w-6 h-6'/>Download Resume
             </a>
             {/* social icon */}
-            <div>
+            <div className='flex justify-around my-5 text-green-500 md:w-full'>
                 <a>
                     <AiFillYoutube className='w-8 h-8'/>
                 </a>
