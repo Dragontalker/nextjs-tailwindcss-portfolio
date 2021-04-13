@@ -5,7 +5,13 @@ module.exports = {
     fontFamily: {
       'kaushan': ['Kaushan Script']
     },
-    extend: {},
+    extend: {
+      colors: {
+        green: {
+          DEFAULT: '#00f260'
+        }
+      }
+    },
   },
   variants: {
     extend: {},
