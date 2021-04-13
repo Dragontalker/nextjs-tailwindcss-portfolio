@@ -18,6 +18,7 @@ const Sidebar = () => {
                 <p>richard.yang.tong@gmail.com</p>
                 <p>+1(647)533-7683</p>
             </div>
+            <button>Email Me</button>
             
         </div>
     )
