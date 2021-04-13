@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <div>
-            Navbar
+            <span>{activeItem}</span>
         </div>
     )
 }
