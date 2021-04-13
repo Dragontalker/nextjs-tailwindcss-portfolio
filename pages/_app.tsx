@@ -1,7 +1,15 @@
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <div>
+      <div>Sidebar</div>
+      <div>
+        <Component {...pageProps} />
+      </div>
+    </div>
+    
+  )
 }
 
 export default MyApp
