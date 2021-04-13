@@ -1,4 +1,4 @@
-import { AiFillGithub, AiLinkedin, AiFillYoutube } from 'react-icons/ai'
+import { AiFillGithub, AiLinkedin, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 
@@ -16,6 +16,9 @@ const Sidebar = () => {
             <div>
                 <a>
                     <AiFillYoutube className='w-8 h-8'/>
+                </a>
+                <a>
+                    <AiFillLinkedin className='w-8 h-8'/>
                 </a>
             </div>
 
