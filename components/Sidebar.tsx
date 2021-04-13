@@ -11,7 +11,7 @@ const Sidebar = () => {
                 className='w-32 h-32 mx-auto rounded-full'
             />
             <h3 className='my-4 text-3x1 font-medium tracking-wider font-kaushan'>
-                <span>Richard</span> Yang
+                <span className='text-green'>Richard</span> Yang
             </h3>
             <p className='px-2 py-1 my-3 bg-green-200 rounded-full'>
                 Web Developer
