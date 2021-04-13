@@ -1,3 +1,6 @@
+import { AiFillGithub, AiLinkedin, AiFillYoutube } from 'react-icons'
+
+
 const Sidebar = () => {
     return (
         <div>
