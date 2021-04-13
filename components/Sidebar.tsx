@@ -18,6 +18,9 @@ const Sidebar = () => {
                     <AiFillYoutube className='w-8 h-8'/>
                 </a>
                 <a>
+                    <AiFillGithub className='w-8 h-8'/>
+                </a>
+                <a>
                     <AiFillLinkedin className='w-8 h-8'/>
                 </a>
             </div>
