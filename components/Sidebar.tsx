@@ -6,8 +6,9 @@ const Sidebar = () => {
     return (
         <div>
             <img 
-                src='https://dragontalker.github.io/FullStack-DeveloperPortfolio/Assets/Image/profile_picture.jpg'
+                src='/square_profile.jpg'
                 alt='user avatar'
+                className='w-32 h-32 mx-auto rounded-full'
             />
             <h3><span>Richard</span>Yang</h3>
             <p>Web Developer</p>
